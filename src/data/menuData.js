@@ -7,13 +7,13 @@ import { RiContactsBookLine } from 'react-icons/ri';
 export const menuItems = [
   { 
     id: "01", 
-    name: "Home", 
+    name: "Beranda", 
     routePath: "/home", 
     icon: <AiOutlineHome /> 
   },
   { 
     id: "02", 
-    name: "About", 
+    name: "Profil", 
     routePath: "/about", 
     icon: <FaRegUser /> 
   },
@@ -25,19 +25,19 @@ export const menuItems = [
   },
   { 
     id: "03", 
-    name: "Works", 
+    name: "Proyek", 
     routePath: "/works", 
     icon: <FiCodesandbox /> 
   },
   { 
     id: "04", 
-    name: "Blogs", 
+    name: "Artikel", 
     routePath: "/blogs", 
     icon: <FaBlogger /> 
   },
   { 
     id: "05", 
-    name: "Contact", 
+    name: "Kontak", 
     routePath: "/contact", 
     icon: <RiContactsBookLine /> 
   }
