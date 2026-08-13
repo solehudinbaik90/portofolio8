@@ -4,7 +4,7 @@ import { FaAward } from 'react-icons/fa';
 export const timelineData = [
   {
     id: "edu",
-    title: "Education",
+    title: "Pendidikan",
     icon: <MdOutlineSchool />,
     items: [
       { id: 1, date: "2006 - 2008", title: "Lulus SMA tak bergelar", place: "SMAN 2 Kabupaten Tangerang", bg: "#FFF4F4" },
@@ -13,7 +13,7 @@ export const timelineData = [
   },
   {
     id: "exp",
-    title: "Experience",
+    title: "Pengalaman",
     icon: <MdOutlineBusinessCenter />,
     items: [
       { id: 3, date: "2013 - 2020", title: "Guru Fisika & IPA", place: "SMK PARAMARTA", bg: "#EEF5FA" },
@@ -22,7 +22,7 @@ export const timelineData = [
   },
   {
     id: "awards",
-    title: "Awards",
+    title: "Penghargaan",
     icon: <FaAward />,
     items: [
       { id: 5, date: "2017", title: "Guru terbaik sepanjang zaman", place: "Sekolah Kehidupan", bg: "#FCF4FF" },
