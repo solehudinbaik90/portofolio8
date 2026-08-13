@@ -14,7 +14,7 @@ const ContactPage = () => {
       <div className="container lg:rounded-2xl bg-white dark:bg-[#111111]">
         <div data-aos="fade">
           <div className="py-12 px-4 sm:px-5 md:px-10 lg:px-20">
-            <h2 className="after-effect after:left-40 mb-[40px] mt-12 lg:mt-0">Contact</h2>
+            <h2 className="after-effect after:left-40 mb-[40px] mt-12 lg:mt-0">Kontak</h2>
 
             <div className="lg:flex gap-x-20">
               <div className="w-full lg:w-[40%] xl:w-[30%] space-y-6">
