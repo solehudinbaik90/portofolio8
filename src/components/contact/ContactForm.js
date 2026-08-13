@@ -46,7 +46,7 @@ export default function ContactForm({ condition = false }) {
     >
       <h3 className="text-2xl md:text-4xl font-poppins leading-tight mb-8">
         <span className="text-gray-lite dark:text-[#A6A6A6]">
-          Jangan ragu untuk menghubungi saya
+          J&apos;angan ragu untuk menghubungi saya{' '}
         </span>
         <br className="hidden md:block" />
         <span className="font-semibold text-black dark:text-white">
