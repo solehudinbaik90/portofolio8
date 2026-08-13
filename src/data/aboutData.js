@@ -61,28 +61,28 @@ export const serviceItems = [
 export const personalInfoData = [
   {
     id: 1,
-    icon: <FaMobileAlt />,
+    iconType: "phone",
     iconColor: "text-oriange",
     name: "Phone",
     meta: <a className="hover:text-[#FA5252] duration-300 transition" href="tel:+62887433130861">+62 8874 3313 0861</a>
   },
   {
     id: 2,
-    icon: <FaMapMarkerAlt />,
+    iconType: "map",
     iconColor: "text-oriange-lite",
     name: "Location",
     meta: "Jungkel Rajeg"
   },
   {
     id: 3,
-    icon: <FaEnvelopeOpenText />,
+    iconType: "email",
     iconColor: "text-green",
     name: "Email",
     meta: <a className="hover:text-[#FA5252] duration-300 transition" href="mailto:solehudinz3692@gmail.com">solehudinz3692@gmail.com</a>
   },
   {
     id: 4,
-    icon: <FaRegCalendarAlt />,
+    iconType: "calendar",
     iconColor: "text-color-50",
     name: "Birthday",
     meta: "May 27, 1990"
