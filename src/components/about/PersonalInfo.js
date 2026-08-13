@@ -1,5 +1,5 @@
 import { FaMobileAlt, FaMapMarkerAlt, FaEnvelopeOpenText, FaRegCalendarAlt } from 'react-icons/fa';
-import { personalInfo } from '@/data/aboutData';
+import { personalInfoData } from '@/data/aboutData';
 
 const iconMap = {
   phone: <FaMobileAlt />,
