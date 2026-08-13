@@ -59,7 +59,7 @@ export default function BlogModal({ isOpen, blog, onClose }) {
           <CommentCard />
 
           <div className="flex items-center md:justify-end space-x-4 mt-8 mr-3">
-            <h6 className="dark:text-white text-[20px]">Share:</h6>
+            <h6 className="dark:text-white text-[20px]">Bagikan:</h6>
             <div className="flex space-x-3">
               <SocialBtn />
             </div>
