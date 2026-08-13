@@ -13,7 +13,7 @@ export default function CommentCard() {
         <div className="pl-5">
           <div className="flex justify-between items-center">
             <h3 className="dark:text-white text-[22px] font-medium">
-              Muhamad Soleh
+              Msoleh
             </h3>
             <span className="dark:text-[#dedede] text-tiny">
               5 menit yang lalu
