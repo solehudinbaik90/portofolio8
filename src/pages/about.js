@@ -6,6 +6,8 @@ import ServiceGrid from '@/components/about/ServiceGrid';
 import BrandSlider from '@/components/about/BrandSlider';
 import Footer from '@/components/Footer';
 import PersonalInfo from '@/components/about/PersonalInfo';
+import { FaMobileAlt } from 'react-icons/fa';
+
 
 const AboutPage = () => {
   return (
