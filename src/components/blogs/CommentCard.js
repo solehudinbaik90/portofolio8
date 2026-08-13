@@ -5,7 +5,7 @@ export default function CommentCard() {
         <div>
           <img
             className="md:w-[125px] rounded-xl"
-            src="/images/about/about.jpg"
+            src="/images/about/profil.jpg"
             alt="user"
           />
         </div>
