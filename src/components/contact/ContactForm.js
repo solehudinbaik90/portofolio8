@@ -46,11 +46,11 @@ export default function ContactForm({ condition = false }) {
     >
       <h3 className="text-2xl md:text-4xl font-poppins leading-tight mb-8">
         <span className="text-gray-lite dark:text-[#A6A6A6]">
-          I&apos;m always open to discussing product{' '}
+          Jangan ragu untuk menghubungi saya
         </span>
         <br className="hidden md:block" />
         <span className="font-semibold text-black dark:text-white">
-          design work or partnerships.
+          kapanpun anda mau.
         </span>
       </h3>
 
@@ -68,7 +68,7 @@ export default function ContactForm({ condition = false }) {
             htmlFor="name"
             className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-color-910 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#FF6464] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8 font-poppins"
           >
-            Name *
+            Nama *
           </label>
         </div>
 
@@ -102,13 +102,13 @@ export default function ContactForm({ condition = false }) {
             htmlFor="message"
             className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-color-910 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#FF6464] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8 font-poppins"
           >
-            Message *
+            Pesan *
           </label>
         </div>
 
         <div className="transition-all duration-300 ease-in-out inline-block hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] rounded-lg mt-3">
           <input
-            type="submit"
+            type="kirim"
             disabled={isSending}
             className="transition ease-in duration-200 font-semibold cursor-pointer border-color-910 hover:border-transparent px-6 py-2 rounded-lg border-[2px] text-black dark:text-white hover:text-white disabled:opacity-50 font-poppins"
             value={isSending ? 'Sending...' : 'Submit'}
