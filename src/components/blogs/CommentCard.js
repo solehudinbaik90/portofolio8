@@ -13,17 +13,17 @@ export default function CommentCard() {
         <div className="pl-5">
           <div className="flex justify-between items-center">
             <h3 className="dark:text-white text-[22px] font-medium">
-              Siti Fulan
+              Muhamad Soleh
             </h3>
             <span className="dark:text-[#dedede] text-tiny">
-              15 menit yang lalu
+              5 menit yang lalu
             </span>
           </div>
           <p className="dark:text-white md:pr-16">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nam ad, unde vel aut soluta atque consequatur. Omnis, debitis nihil?
-          </p>
+            Isi artikel ini sangat membantu saya sebagai guru IPA. Penjelasannya sangat mudah di cerna senang bisa membacanya
+              </p>
           <button className="dark:text-[#dedede] text-tiny hover:text-[#FA5252] dark:hover:text-[#FA5252]">
-            Reply
+            Balas
           </button>
         </div>
       </div>
