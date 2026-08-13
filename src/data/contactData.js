@@ -4,7 +4,7 @@ export const contactInfoList = [
   {
     id: '01',
     icon: '/images/contact/phone-call.png',
-    title: 'Phone',
+    title: 'Telepon',
     bg: '#FCF4FF',
     info: (
       <Fragment>
@@ -44,12 +44,12 @@ export const contactInfoList = [
   {
     id: '03',
     icon: '/images/contact/map.png',
-    title: 'Address',
+    title: 'Alamat',
     bg: '#F2F4FF',
     info: (
       <Fragment>
-        <p className="text-gray-lite text-lg dark:text-[#A6A6A6]">Mount View, Oval</p>
-        <p className="text-gray-lite text-lg dark:text-[#A6A6A6]">Jungkel, Rajeg, Tangerang</p>
+        <p className="text-gray-lite text-lg dark:text-[#A6A6A6]">Jungkel, Tanjakan Mekar</p>
+        <p className="text-gray-lite text-lg dark:text-[#A6A6A6]">Kecamatan Rajeg, Kabupaten Tangerang</p>
       </Fragment>
     ),
   },
