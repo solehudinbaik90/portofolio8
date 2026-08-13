@@ -40,7 +40,7 @@ const AboutPage = () => {
               <div className="col-span-12 md:col-span-8 space-y-2.5">
                 <div className="md:mr-12 xl:mr-16">
                   <h3 className="text-4xl font-medium dark:text-white mb-2.5">
-                    Who am i?
+                    Siapa Saya?
                   </h3>
                   <p className="text-gray-lite dark:text-color-910 leading-7">
                     Muhamad Soleh seorang pendidik dengan usia yang tidak muda lagi tapi ingin terus berjuang mencerdaskan kehidupan bangsa demi indonesia yang lebih cerah. Selalu berlatih, berinovasi mengembangan diri agar menjadi pendidik profesional.
@@ -52,7 +52,7 @@ const AboutPage = () => {
 
                 <div>
                   <h3 className="text-4xl font-medium my-5 dark:text-white">
-                    Personal Info
+                    Informasi Pribadi
                   </h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <PersonalInfo />
@@ -64,7 +64,7 @@ const AboutPage = () => {
 
           <div className="pb-12">
             <h3 className="text-[35px] dark:text-white font-medium pb-5">
-              What I do!
+              Apa yang saya kerjakan!
             </h3>
             <div className="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
               <ServiceGrid />
