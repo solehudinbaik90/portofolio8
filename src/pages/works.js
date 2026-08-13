@@ -10,11 +10,11 @@ import WorkModal from '@/components/works/WorkModal';
 import { portfolioItems } from '@/data/worksData';
 
 const FILTER_TABS = [
-  { label: 'All', value: 'All' },
+  { label: 'Semua', value: 'All' },
   { label: 'Video', value: 'Video' },
-  { label: 'Web Design', value: 'Web Design' },
+  { label: 'Desain Web', value: 'Web Design' },
   { label: 'Logo', value: 'Logo' },
-  { label: 'Graphic Design', value: 'UI/UX' },
+  { label: 'Desain Grafis', value: 'UI/UX' },
 ];
 
 const breakpointColumnsObj = { default: 3, 1100: 2, 500: 1 };
