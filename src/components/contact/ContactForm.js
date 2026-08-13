@@ -108,10 +108,10 @@ export default function ContactForm({ condition = false }) {
 
         <div className="transition-all duration-300 ease-in-out inline-block hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] rounded-lg mt-3">
           <input
-            type="kirim"
+            type="submit"
             disabled={isSending}
             className="transition ease-in duration-200 font-semibold cursor-pointer border-color-910 hover:border-transparent px-6 py-2 rounded-lg border-[2px] text-black dark:text-white hover:text-white disabled:opacity-50 font-poppins"
-            value={isSending ? 'Sending...' : 'Submit'}
+            value={isSending ? 'Sending...' : 'Kirim'}
           />
         </div>
       </form>
