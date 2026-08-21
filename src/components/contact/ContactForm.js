@@ -75,7 +75,7 @@ export default function ContactForm({ condition = false }) {
         <div className="relative z-0 w-full group">
           <input
             type="email"
-            name="user_email"
+            name="email"
             id="user_email"
             className="block py-2.5 px-0 w-full text-sm text-gray-lite bg-transparent border-0 border-b-[2px] border-[#B5B5B5] appearance-none dark:text-white dark:border-[#333333] dark:focus:border-[#FF6464] focus:outline-none focus:ring-0 focus:border-[#FF6464] peer"
             placeholder=" "
